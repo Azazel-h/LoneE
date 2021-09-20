@@ -1,4 +1,5 @@
-# Prerequisites
+.idea
+cmake-build-debug
 *.d
 
 # Compiled Object files
