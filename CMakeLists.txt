@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(LonE)
 set(CMAKE_CXX_STANDARD 20)
-set(SOURCE_FILES Sandbox/main.cpp LonE-core/LonE.h)
+set(SOURCE_FILES Sandbox/main.cpp LonE-core/Renderer.cpp LonE-core/Renderer.h)
 add_executable(LonE ${SOURCE_FILES})
 
 find_package(PkgConfig REQUIRED)

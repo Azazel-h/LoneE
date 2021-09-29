@@ -1,6 +1,7 @@
 #include <iostream>
+#include "../LonE-core/Renderer.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    lone::renderer::Window window(800, 600, "123");
     return 0;
 }
